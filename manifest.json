@@ -1,0 +1,45 @@
+{
+    "short_name": "Regular Show",
+    "name": "App de Personajes de Un Show Mas",
+    "start_url":"index.html",
+    "background_image": "fondo.png",
+    "display": "standalone",
+    "orientation":"portrait",
+    "icons":[
+        {
+            "src":"images/iconos/iconoRS32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src":"images/iconos/iconoRS48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src":"images/iconos/iconoRS64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src":"images/iconos/iconoRS72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src":"images/iconos/iconoRS96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src":"images/iconos/iconoRS128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src":"images/iconos/iconoRS256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        }
+    ]
+}

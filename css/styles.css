@@ -1,0 +1,60 @@
+body{
+    background-image: url(../images/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    border: rgb(21, 21, 110);
+    max-width: 20%;
+    margin: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1a3c7a;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.bannerlogoRS1{
+    width: 600px; 
+    margin-top: 30px;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+
+h1, h3{
+    color: white;
+}
+
+
+/*Responsive*/
+@media screen and (max-width:768px){
+
+    .container{
+        max-width: 50%;
+    }
+
+    .bannerlogoRS1{
+        width: 300px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,1 @@
+('serviceWorker' in navigator) ? navigator.serviceWorker.register('/sw.js') : console.log("No Tenemos Service Worker");
